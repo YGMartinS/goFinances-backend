@@ -1366,6 +1366,11 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
+convert-csv-to-json@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/convert-csv-to-json/-/convert-csv-to-json-0.0.15.tgz#f0ac35129b61d857cb370e4eaf2abd4779c2c15a"
+  integrity sha512-mXpZWoSc3RXWuA50GAx/BAj+7GIWLmYCr2/IoW9L+cwwvRt6TkTY+15emUyeNInyfl5uZf+H6sQQkpKhjwJB0w==
+
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
@@ -4053,7 +4058,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.0.0:
+pg@^8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.0.2.tgz#883f869f61ab074ded386d305ad3f99056d0073e"
   integrity sha512-ngOUEDk69kLdH/k/YLT2NRIBcUiPFRcY4l51dviqn79P5qIa5jBIGIFTIGXh4OlT/6gpiCAza5a9uy08izpFQQ==
