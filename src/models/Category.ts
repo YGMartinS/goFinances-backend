@@ -14,10 +14,10 @@ class Category {
   @Column()
   title: string;
 
-  @CreateDateColumn({select: false})
+  @CreateDateColumn() //{select: false} Para remover
   created_at: Date;
 
-  @UpdateDateColumn({select: false})
+  @UpdateDateColumn()
   updated_at: Date;
 }
 
